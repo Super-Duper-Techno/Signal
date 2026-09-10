@@ -1,0 +1,29 @@
+{
+  "name": "sdt-signal",
+  "version": "1.0.0",
+  "description": "A terminal-themed focus session tracker. Start a signal, hold the line, log the streak.",
+  "main": "bin/signal.js",
+  "bin": {
+    "signal": "./bin/signal.js"
+  },
+  "type": "commonjs",
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "start": "node bin/signal.js"
+  },
+  "keywords": [
+    "cli",
+    "pomodoro",
+    "focus-timer",
+    "productivity",
+    "terminal"
+  ],
+  "author": "Super Duper Techno",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SuperDuperTechno/signal.git"
+  }
+}
